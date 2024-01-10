@@ -1,0 +1,11 @@
+
+services:
+
+  rabbit:
+    image: library/rabbitmq:3.9-management
+    restart: always
+    volumes:
+      - ./deploy/rabbitmq/enabled_plugins:/etc/rabbitmq/enabled_plugins:ro,Z
+    ports:
+      - 15672:15672
+      - 5672:5672

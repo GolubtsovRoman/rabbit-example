@@ -13,7 +13,7 @@ fun main() {
 
     // create connect
     val rabbitConnection = ConnectionFactory().apply {
-        host = "rabbit"
+        host = "localhost"
         port = 5672
         username = "guest"
         password = "guest"
