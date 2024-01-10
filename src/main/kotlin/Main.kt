@@ -1,7 +1,6 @@
 package ru.golubtsov
 
 import com.rabbitmq.client.AMQP
-import com.rabbitmq.client.AMQP.Queue
 import com.rabbitmq.client.ConnectionFactory
 import com.rabbitmq.client.DefaultConsumer
 import com.rabbitmq.client.Envelope
